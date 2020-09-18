@@ -2,7 +2,7 @@
 A sample application with a custom rest controller, that changes the authorization behaviour for claiming and completing tasks. 
 
 ## Show me the important parts!
-![BPMN Process](/process.png)
+![BPMN Process](src/main/resources/process.png)
 
 ## How does it work?
 This application contains a custom rest controller, which validates the authorization of the user used when claiming and completing a user task in Camunda ([UserTaskRestController](src/main/java/com/camunda/consulting/controllers/UserTaskRestController.java)).
