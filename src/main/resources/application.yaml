@@ -1,4 +1,7 @@
-spring.datasource.url: jdbc:h2:file:./camunda-h2-database
+spring.datasource:
+  url: jdbc:oracle:thin:@host:port:service
+  username: ******
+  password: ******
 
 camunda.bpm:
   filter.create: All Tasks
